@@ -60,13 +60,6 @@
                     </button>
 					<!-- /responsive nav button -->
 					
-					<!-- logo -->
-                    <!-- <a class="navbar-brand" href="#body">
-						<h1 id="logo">
-							<img src="img/logo.png" alt="Brandi">
-						</h1>
-					</a> -->
-					<!-- /logo -->
                 </div>
 
 				<!-- main nav -->
@@ -96,13 +89,7 @@
 		
 		<section id="slider">
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			
-				<!-- Indicators bullet -->
-				<!-- <ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				</ol> -->
-				<!-- End Indicators bullet -->				
+						
 				
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
@@ -110,38 +97,16 @@
 					<!-- single slide -->
 					<div class="item active" style="background-image: url(assets/img/logo.jpg); background-size: contain; background-repeat: no-repeat; background-position-x: center; background-position-y: -1.4px;">
 						<div class="carousel-caption">
-							<!-- <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Brandi</span>!</h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p> -->
 
-							<!-- <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Museu Sem Fronteiras Binacional</h2> -->
 
-							<ul class="social-links text-center">
-								<!-- <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li> -->
+
 								<li><a href="https://www.facebook.com/MuseoSinFronteras/"><i class="fa fa-facebook fa-lg"></i></a></li>
-								<!-- <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li> -->
+
 								<li><a href="http://www.museosinfronteras.com/"><i class="fa fa-dribbble fa-lg"></i></a></li>
 							</ul>
 						</div>
 					</div>
-					<!-- end single slide -->
-					
-					<!-- single slide -->
-					<!-- <div class="item" style="background-image: url(img/banner.jpg);">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2>
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
-							<p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
-							
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div> -->
-					<!-- end single slide -->
+
 					
 				</div>
 				<!-- End Wrapper for slides -->
@@ -403,6 +368,18 @@
 					</div>
 					
 				</div>
+				<!--PROBANDOOO-->
+				<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+						<ul class="text-center">
+							<li><a href="javascript:;" data-filter="all" class="active filter">Todas</a></li>
+							<?php foreach($this->exposicao->listAll() as $expo): ?>
+							<li><a href="javascript:;" data-filter=".branding" class="filter"><?php echo $expo['nome'] ?></a></li>
+							<?php endforeach; ?>
+
+						</ul>
+					</div>
+					
+				</div>
 				<div class="project-wrapper">
 			
 						<figure class="work-item">
@@ -414,68 +391,6 @@
 							</figcaption>
 						</figure>
 						
-						<figure class="work-item">
-							<img src="assets/img/works/item-2.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						
-						<figure class="work-item">
-							<img src="assets/img/works/item-3.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						
-						<figure class="work-item">
-							<img src="assets/img/works/item-4.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-					
-						<figure class="work-item">
-							<img src="assets/img/works/item-5.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						
-						<figure class="work-item">
-							<img src="assets/img/works/item-6.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						
-						<figure class="work-item">
-							<img src="assets/img/works/item-7.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						
-						<figure class="work-item">
-							<img src="assets/img/works/item-8.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
 						
 					</div>
 			</div>
@@ -510,7 +425,7 @@
 						<ul class="text-center">
 							<li><a href="javascript:;" data-filter="all" class="active filter">Todas</a></li>
 							<?php foreach($this->categoria->listAll() as $categ): ?>
-							<li><a href="javascript:;" data-filter=".branding" class="filter"><?php echo $categ['nome'] ?></a></li>
+							<li><a href="javascript:;" <?php echo"data-filter='.".$categ['id']."'";?> class="filter"><?php echo $categ['nome'] ?></a></li>
 							<?php endforeach; ?>
 
 						</ul>
@@ -521,10 +436,13 @@
 
 				<div class="project-wrapper">
 			<?php foreach($this->imagems_acervo->listAll() as $acer): ?>
-					<figure class="mix work-item branding">
+					<figure 
+					<?php 
+						$cate = $this->acervo->listOne($acer['id_aservo']);
+						echo"class='mix work-item ".$cate['id_categoria']."'";?>>
 						<img <?php echo "src = 'assets/img/works/".$acer['imagem']."'";?> alt="">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<a class="fancybox" rel="works" <?php echo"title='".$acer['nome']."' href='assets/img/works/".$acer['imagem']."'";?>><i class="fa fa-eye fa-lg"></i></a>
 							<h4><?php echo $acer['nome']?></h4>
 						</figcaption>
 					</figure>
@@ -556,7 +474,6 @@
 				
 					<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
 						<h2>Contato</h2>
-						<!-- <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div> -->
 					</div>
 					
 					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
