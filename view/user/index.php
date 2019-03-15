@@ -368,18 +368,19 @@
 					</div>
 					
 				</div>
-				<!--PROBANDOOO-->
+
 				<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
 						<ul class="text-center">
 							<li><a href="javascript:;" data-filter="all" class="active filter">Todas</a></li>
-							<?php foreach($this->exposicao->listAll() as $expo): ?>
-							<li><a href="javascript:;" data-filter=".branding" class="filter"><?php echo $expo['nome'] ?></a></li>
+							<?php foreach($this->exposicao->listAll() as $categ): ?>
+							<li><a ><?php echo $categ['nome'] ?></a></li>
 							<?php endforeach; ?>
 
 						</ul>
 					</div>
 					
 				</div>
+				
 				<div class="project-wrapper">
 			
 						<figure class="work-item">

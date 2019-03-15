@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-02-2019 a las 09:38:19
+-- Tiempo de generación: 28-02-2019 a las 20:50:04
 -- Versión del servidor: 10.1.34-MariaDB
 -- Versión de PHP: 7.2.7
 
@@ -81,9 +81,17 @@ CREATE TABLE `exposicao` (
   `local` varchar(20) NOT NULL,
   `data_inicio` date NOT NULL,
   `data_final` date NOT NULL,
-  `id_user` int(10) NOT NULL,
   `banner` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `exposicao`
+--
+
+INSERT INTO `exposicao` (`id`, `nome`, `descricao`, `local`, `data_inicio`, `data_final`, `banner`) VALUES
+(1, 'Expo 1', 'descripción', 'local', '2019-02-01', '2019-02-02', 'banner.png'),
+(2, 'Expo 2', 'descripcion', 'local', '2019-02-01', '2019-02-02', 'banner.png'),
+(3, 'Expo 3', 'descripcion', 'local', '2019-02-01', '2019-02-02', 'banner.png');
 
 -- --------------------------------------------------------
 
@@ -95,7 +103,7 @@ CREATE TABLE `imagems_acervo` (
   `id` int(10) NOT NULL,
   `id_aservo` int(10) NOT NULL,
   `imagem` varchar(20) NOT NULL,
-  `nome` varchar(20) NOT NULL
+  `nome` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -103,9 +111,9 @@ CREATE TABLE `imagems_acervo` (
 --
 
 INSERT INTO `imagems_acervo` (`id`, `id_aservo`, `imagem`, `nome`) VALUES
-(1, 1, 'image_1.jpg', 'Rompecabezas de dos '),
-(2, 2, 'image_2.jpg', 'Pipa de manufactura '),
-(3, 3, 'image_3.jpg', 'Detalle de una espue');
+(1, 1, 'image_1.jpg', 'Rompecabezas de dos puntas.'),
+(2, 2, 'image_2.jpg', 'Pipa de manufactura indígena. '),
+(3, 3, 'image_3.jpg', 'Detalle de una espuela llorona.');
 
 -- --------------------------------------------------------
 
@@ -198,7 +206,7 @@ ALTER TABLE `categoria`
 -- AUTO_INCREMENT de la tabla `exposicao`
 --
 ALTER TABLE `exposicao`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `imagems_acervo`
