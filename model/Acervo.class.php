@@ -65,15 +65,15 @@
          $sql->bindParam(':id', $id);
          $sql->execute();
       }else {  //Inserta un nuevo espectaculo.
-         $sql = $conexion->prepare('INSERT INTO ' . self::TABLA .' (nome_peca, descricao, id_categoria, data_catalogada id_user, periodo) VALUES(:nome_peca, :descricao, :id_categoria, :data_catalogada :id_user, :periodo)');
+         $sql = $conexion->prepare('INSERT INTO ' . self::TABLA .' (nome_peca, descricao, id_categoria, data_catalogada, id_user, periodo) VALUES(:nome_peca, :descricao, :id_categoria, :data_catalogada :id_user, :periodo)');
          $sql->bindParam(':nome_peca', $nome_peca, PDO::PARAM_STR);
          $sql->bindParam(':descricao', $descricao, PDO::PARAM_STR);
-         $sql->bindParam(':id_user', $id_user);
-         $sql->bindParam(':id_categoria', $id_categoria);
+         $sql->bindParam(':id_categoria', $id_categoria, PDO::PARAM_INT);
          $sql->bindParam(':data_catalogada', $data_catalogada);
+         $sql->bindParam(':id_user', $id_user, PDO::PARAM_INT);
          $sql->bindParam(':periodo', $periodo, PDO::PARAM_STR);
          $id = $conexion->lastInsertId();
-         $sql->execute();
+         $sql->execute();//var_dump($sql);die;
       }
       return $sql;
    }

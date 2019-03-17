@@ -81,10 +81,10 @@
 
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-finance.html">Mostrar todo</a>
+                                            <a class="nav-link" href="index.php?c=acer&a=Index">Mostrar todo</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-sales.html">Agregar Nueva Pieza</a>
+                                            <a class="nav-link" href="index.php?c=acer&a=agregar">Agregar Nueva Pieza</a>
                                         </li>
                                     </ul>
                                 </div>

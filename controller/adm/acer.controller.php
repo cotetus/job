@@ -4,10 +4,14 @@ require_once '../../model/indexClass.php';
 class acerController{
     
     private $model;
+    private $categoria;
+    private $usuario;
     
     
     public function __CONSTRUCT(){
         $this->model = new Acervo();
+        $this->categoria = new Categoria();
+        $this->usuario = new Usuario();
     }
     
     public function Index(){
@@ -52,6 +56,7 @@ class acerController{
 
   
         $insert = Acervo::save($nome_peca, $id_user, $id_categoria, $data_catalogada, $descricao, $periodo, $id);
+
         
         if (isset($insert)) {
         header('Location: index.php?c=acer&a=Index');
