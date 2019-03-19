@@ -53,16 +53,25 @@
       </div>
           <div class="modal-body">
           <div class="form-group">
-        <input class="form-control " type="text" value="<?php echo $datos['id']; ?>">
+        <input class="form-control " type="text" value="<?php echo $datos['nome _peca']; ?>">
         </div>
         <div class="form-group">
         <input class="form-control " type="date" value="<?php echo $datos['data_catalogada']; ?>">
         </div>
         <div class="form-group">
-        <textarea rows="2" class="form-control" placeholder="Descripción"></textarea>
+        <textarea rows="2" class="form-control" value="<?php echo $datos['descricao']; ?>"></textarea>
         </div>
         <div class="form-group">
-        <input class="form-control " type="text" placeholder="Período">
+        <input class="form-control " type="text" value="<?php echo $datos['periodo']; ?>">
+        </div>
+        <div class="form-group">
+        <select class="form-control " name="id_categoria"/>
+        <option value ="">Categoria</option>
+        <?php
+        foreach($this->categoria->listAll() as $item){
+        echo "<option value = '".$item['id']."'>".$item['nome']."</option>";}
+        ?>
+        </select>
         </div>
       </div>
           <div class="modal-footer ">
