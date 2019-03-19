@@ -1,41 +1,41 @@
 <?php
 require_once '../../model/indexClass.php';
 
-class acervoimgController{
+class exposicaoimgController{
     
     private $model;
-    private $acervo;
+    private $exposicao;
 
     
     
     public function __CONSTRUCT(){
-        $this->model = new Imagems_acervo();
-        $this->acervo = new Acervo();
+        $this->model = new Imagems_expo();
+        $this->exposicao = new Exposicao();
 
     }
     
     public function Index(){
         require_once 'head.php';
-        require_once 'acervoimg/listAcervoimg.php';
+        require_once 'exposicaoimg/listExposicaoimg.php';
         require_once 'footer.php';
     }
 
     public function agregar(){
         require_once 'head.php';
-        require_once 'acervoimg/insert.php';
+        require_once 'exposicaoimg/insert.php';
         require_once 'footer.php';
     }
     
     public function editar(){
         if(isset($_REQUEST['id'])){
-            $acervoimg = Imagems_acervo::listOne($_REQUEST['id']);
-            $id = $acervoimg['id_aservo'];
+            $exposicaoimg = Imagems_expo::listOne($_REQUEST['id']);
+            $id = $exposicaoimg['id_exposicao'];
             $acervo = Acervo::listOne($id);
 
         }
 
         require_once 'head.php';
-        require_once 'acervoimg/acervoimg-editar.php';
+        require_once 'exposicaoimg/exposicaoimg-editar.php';
         require_once 'footer.php';
      
     }
@@ -46,9 +46,9 @@ class acervoimgController{
         
         $id = $_REQUEST['id'];
         $nome = $_REQUEST['nome'];
-        $id_aservo = $_REQUEST['id_aservo'];
+        $id_aservo = $_REQUEST['id_exposicao'];
                if(isset($_FILES["imagem"])){
-       $direction ="../../assets/img/acervo/";
+       $direction ="../../assets/img/exposicao/";
        $nameimg = $_FILES["imagem"]["name"];
        $nameTemp = $_FILES["imagem"]["tmp_name"];
        move_uploaded_file($nameTemp,$direction.$nameimg);
@@ -56,20 +56,20 @@ class acervoimgController{
        $imagem = $nameimg;
 
 
-        $insert = Imagems_acervo::save($nome, $id_aservo, $imagem, $id);
+        $insert = Imagems_expo::save($nome, $id_exposicao, $imagem, $id);
 
         
         if (isset($insert)) {
-        header('Location: index.php?c=acervoimg&a=Index');
+        header('Location: index.php?c=exposicaoimg&a=Index');
         }
 
     }
     
     public function Eliminar(){
         $id = $_REQUEST["id"];
-        $delete = Imagems_acervo::delete($id);
+        $delete = Imagems_expo::delete($id);
         if (isset($delete)) {
-            header('Location: index.php?c=acervoimg&a=Index');
+            header('Location: index.php?c=exposicaoimg&a=Index');
         }else{
             echo "error";
 
