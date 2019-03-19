@@ -4,9 +4,9 @@
    private $id;
    private $nome_peca;
    private $descricao;
-   private $id_user;
+   private $data_catalogada;   
    private $periodo;
-   private $data_catalogada;
+   private $id_user;
    private $id_categoria;
    const TABLA = 'acervo';
    
@@ -55,7 +55,7 @@
       $conexion = new Conexion();
       if($id) { //Modifica toda una linea, mediante el id.
 
-         $sql = $conexion->prepare('UPDATE ' . self::TABLA .' SET nome_peca = :nome_peca, :data_catalogada = data_catalogada, :id_categoria = id_categoria, descricao = :descricao, id_user = :id_user WHERE id = :id');
+         $sql = $conexion->prepare('UPDATE ' . self::TABLA .' SET nome_peca = :nome_peca, descricao = :descricao, :data_catalogada = data_catalogada, :periodo= periodo,  id_user = :id_user, :id_categoria = id_categoria WHERE id = :id');
          $sql->bindParam(':nome_peca', $nome_peca, PDO::PARAM_STR);
          $sql->bindParam(':descricao', $descricao, PDO::PARAM_STR);
          $sql->bindParam(':id_user', $id_user);
@@ -65,7 +65,7 @@
          $sql->bindParam(':id', $id);
          $sql->execute();
       }else {  //Inserta un nuevo espectaculo.
-         $sql = $conexion->prepare('INSERT INTO ' . self::TABLA .' (nome_peca, descricao, id_categoria, data_catalogada, id_user, periodo) VALUES(:nome_peca, :descricao, :id_categoria, :data_catalogada :id_user, :periodo)');
+         $sql = $conexion->prepare('INSERT INTO ' . self::TABLA .' (nome_peca, descricao, data_catalogada, periodo, id_user, id_categoria) VALUES(:nome_peca, :descricao, :data_catalogada, :periodo, :id_user, :id_categoria)');
          $sql->bindParam(':nome_peca', $nome_peca, PDO::PARAM_STR);
          $sql->bindParam(':descricao', $descricao, PDO::PARAM_STR);
          $sql->bindParam(':id_categoria', $id_categoria, PDO::PARAM_INT);
@@ -80,7 +80,7 @@
    public static function listOne($id){//Retorna nombre, descri.. por el id.
     
        $conexion = new Conexion();
-       $sql = $conexion->prepare('SELECT nome_peca, id_categoria, data_catalogada, descricao, id_user, periodo FROM ' . self::TABLA . ' WHERE id = :id');
+       $sql = $conexion->prepare('SELECT nome_peca, descricao, data_catalogada, periodo, id_user, id_categoria FROM ' . self::TABLA . ' WHERE id = :id');
        $sql->bindParam(':id', $id);
        $sql->execute();
        $reg = $sql->fetch(); //Devuelve una única linea (array con cada campo) de la TABLA(id seleccionado).
@@ -89,7 +89,7 @@
     }
     public static function listAll(){
        $conexion = new Conexion();
-       $sql = $conexion->prepare ('SELECT id, nome_peca, descricao, id_categoria, data_catalogada, id_user, periodo FROM ' . self::TABLA . ' ORDER BY nome_peca');
+       $sql = $conexion->prepare ('SELECT id, nome_peca, descricao, data_catalogada, periodo, id_user, id_categoria FROM ' . self::TABLA . ' ORDER BY nome_peca');
        $sql->execute();
        $reg = $sql->fetchAll();
        return $reg;

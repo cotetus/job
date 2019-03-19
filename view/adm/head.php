@@ -33,7 +33,7 @@
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.html">Museo sin fronteras</a>
+                <a class="navbar-brand" href="index.html">ADMINISTRACIÓN</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -81,10 +81,10 @@
 
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="index.php?c=acer&a=Index">Mostrar todo</a>
+                                            <a class="nav-link" href="index.php?c=acervo&a=Index">Mostrar todo</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="index.php?c=acer&a=agregar">Agregar Nueva Pieza</a>
+                                            <a class="nav-link" href="index.php?c=acervo&a=agregar">Agregar Nueva Pieza</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,10 +94,10 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/cards.html">Mostrar Todas</a>
+                                            <a class="nav-link" href="index.php?c=categoria&a=Index">Mostrar Todas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/general.html">Agregar Nueva</a>
+                                            <a class="nav-link" href="index.php?c=categoria&a=agregar">Agregar Nueva</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -107,10 +107,10 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html">Mostrar Todas</a>
+                                            <a class="nav-link" href="index.php?c=exposicao&a=Index">Mostrar Todas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-chartist.html">Agregar Nueva</a>
+                                            <a class="nav-link" href="index.php?c=exposicao&a=agregar">Agregar Nueva</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -120,10 +120,10 @@
                                 <div id="submenu-4" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/form-elements.html">Mostrar Todas</a>
+                                            <a class="nav-link" href="index.php?c=acervoimg&a=Index">Mostrar Todas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/form-validation.html">Agregar Nueva</a>
+                                            <a class="nav-link" href="index.php?c=acervoimg&a=agregar">Agregar Nueva</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -133,10 +133,10 @@
                                 <div id="submenu-5" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/general-table.html">Mostrar Todas</a>
+                                            <a class="nav-link" href="index.php?c=exposicaoimg&a=Index">Mostrar Todas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/data-tables.html">Agregar Nueva</a>
+                                            <a class="nav-link" href="index.php?c=exposicaoimg&a=agregar">Agregar Nueva</a>
                                         </li>
                                     </ul>
                                 </div>

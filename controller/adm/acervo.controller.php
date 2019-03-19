@@ -1,7 +1,7 @@
 <?php
 require_once '../../model/indexClass.php';
 
-class acerController{
+class acervoController{
     
     private $model;
     private $categoria;
@@ -16,17 +16,17 @@ class acerController{
     
     public function Index(){
         require_once 'head.php';
-        require_once 'acer/listAcervo.php';
+        require_once 'acervo/listAcervo.php';
         require_once 'footer.php';
     }
 
     public function agregar(){
         require_once 'head.php';
-        require_once 'acer/insert.php';
+        require_once 'acervo/insert.php';
         require_once 'footer.php';
     }
     
-    public function Crud(){
+    public function editar(){
         if(isset($_REQUEST['id'])){
             $acer = Acervo::listOne($_REQUEST['id']);
             $id = $acer['id_user'];
@@ -36,9 +36,9 @@ class acerController{
 
         }
 
-        require_once 'view/adm/header.php';
-        require_once 'view/adm/acer/acer-editar.php';
-        require_once 'view/adm/footer.php';
+        require_once 'head.php';
+        require_once 'acervo/acervo-editar.php';
+        require_once 'footer.php';
      
     }
 
@@ -59,7 +59,7 @@ class acerController{
 
         
         if (isset($insert)) {
-        header('Location: index.php?c=acer&a=Index');
+        header('Location: index.php?c=acervo&a=Index');
         }
 
         
@@ -69,7 +69,7 @@ class acerController{
         $id = $_REQUEST["id"];
         $delete = Acervo::delete($id);
         if (isset($delete)) {
-            header('Location: index.php?c=acer&a=Index');
+            header('Location: index.php?c=acervo&a=Index');
         }else{
             echo "error";
 

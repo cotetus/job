@@ -1,4 +1,4 @@
-<form method="POST" action="?c=acer&a=Guardar"  id="edit" tabindex="-1"   >
+<form enctype="multipart/form-data" method="POST" action="?c=acervo&a=Guardar"  id="edit" tabindex="-1"   >
     <input type="hidden" name="id"/>
       <div class="modal-dialog">
     <div class="modal-content">
@@ -21,15 +21,16 @@
         </div>
         <div class="form-group">
         <select class="form-control " name="id_categoria"/>
-        <option value ="">Catgoria</option>
+        <option value ="">Categoria</option>
         <?php
         foreach($this->categoria->listAll() as $item){
         echo "<option value = '".$item['id']."'>".$item['nome']."</option>";}
         ?>
-        </select></div>
+        </select>
+        </div>
         <div class="form-group">
         <select class="form-control " name="id_user"/>
-        <option value ="">Usuario</option>
+        <option value ="1">Usuario</option>
         <?php
         foreach($this->usuario->listAll() as $item){
         echo "<option value = '".$item['id']."'>".$item['nome']."</option>";}
