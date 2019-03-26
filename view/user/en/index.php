@@ -6,10 +6,10 @@
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<!-- Page Title -->
-        <title>Museu Sem Fronteiras</title>		
+        <title>Museu Sem Fronteiras Binacional Itinerante</title>		
 		<!-- Meta Description -->
-        <meta name="description" content="Museu Sem Fronteiras Binacional">
-        <meta name="keywords" content="museu, museo, fronteiras, fronteras, museo sin fronteras, museu sem fronteiras">
+        <meta name="description" content="Museu Sem Fronteiras Binacional Itinerante">
+        <meta name="keywords" content="museu, museo, fronteiras, fronteras, museo sin fronteras, museu sem fronteiras. binacional, itinerante">
 		<meta name="author" content="Muhammad Morshed">
 		<meta name="adaptation" content="Lucelia Vieira">
 		<!-- Mobile Specific Meta -->
@@ -120,32 +120,26 @@
 					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
 						<h2>História do Museu</h2>
 					</div>
-
-					<p>O Museo Sin Fronteiras iniciou suas atividades na Semana Santa do ano de 1979, quando em conjunto com a Intendendia Municipal de Rivera, realizou sua primeira exposição em um dos salões do antigo Banco Mercantil de Rivera. Essa exposição tinha enfoque em peças indigenas e gauchas,
-							posteriormente levada para outras cidades e intendencias do Uruguai, teve uma duração de 20 dia, recebeu cerca de 9500 visitantes, entre comunidade academica e local. A pedido das escolas, a exposição se repetiu no Setembro do mesmo ano, tendo uma quantidade similiar de visitantes.</p>
-						<p> Sem local fixo e com um acervo histórico cultural que esperava para ser exposto, o Museo Sin Fronteras, durante muitos anos. visitou diversas escolas de forma totalmente gratuita, levando o acervo para apreciação dos estudantes de forma a incrementar o estudo de sala de aula.</p>
+					<div class="text-p">
+						<p>O Museo Sin Fronteras iniciou suas atividades na Semana Santa do ano de 1979, quando em conjunto com a Intendência Municipal de Rivera, realizou sua primeira exposição em um dos salões do antigo Banco Mercantil de Rivera. Essa exposição tinha enfoque em peças indígenas e gaúchas,                                 posteriormente levada para outras cidades e intendências do Uruguai, teve uma duração de 20 dia, recebeu cerca de 9500 visitantes, entre comunidade acadêmica e local. A pedido das escolas, a exposição se repetiu no Setembro do mesmo ano, tendo uma quantidade similar de visitantes.</p>
+						<p>Sem local fixo e com um acervo histórico cultural que esperava para ser exposto, o Museo Sin Fronteras, durante muitos anos. visitou diversas escolas de forma totalmente gratuita, levando o acervo para apreciação dos estudantes de forma a incrementar o estudo de sala de aula.</p>
 						<p>Em Março de 2003 o museu adquiriu um espaço na Rua Sarandi, nº 743, onde expôs para o grande público de forma gratuita, 600 peças do seu acervo particular.</p>
 						<p>Em 2 de Maio do mesmo ano, por resolução nº2617 do conjunto executivo departamental, foi declarada as atividades do museu, de interesse do Departamento. Em Maio de 2007, o museu abriu suas portas na Avenida Itália, nº 2394, onde realizam-se periodicamente diversas exposições e atividade culturais.</p>
-						<!-- <p>Em Abril de 2009, o projeto "O Museu vai as escolas", foi declardo de interesse do Ministerio da Educação e Cultura do Uruguai, e em Março de 2010, o mesmo voltou a ser declarado do interesse, conjuntamente, com o projeto apresentado pelo MSF, denominado: "Aos 175 anos da Revolução Farroupilha",
-							criado em homenagem aos brasileiros, especialmente aos Riograndenses. </p>
-						<p>O Museo Sin Fronteiras, em Junho de 2005, recebeu a honraria: "Amigo do 4º Regimento de Carros de Combate", com sede na cidade de Rosário do Sul (Rio Grande do Sul, Brasil), por ter apoiad a criação do Museu "Paso de Rosário" e o "Ituzaingó".</p>
-						<p>Em 2007, recebeu a honraria de "Amigo do 7º RCMec" da cidade de Sant'Ana do Livramento, por ter apoiado diversas atividades culturais realizadas juntamente com o Exército Brasileiro.</p> 
-						<p>O museu ja realizou mais de 520 exposições em escolas, centros educativos, unidades militares de Brasil e Uruguai. centros de capacitados, INAU, e é visitado por escolas de Livramento, Rivera, e região. Participou de diversas atividades em: Paysandú, Tacuarembó, Cerro Largo.</p>
-						<p>Em 2008, conjuntamente com o Consulado do Brasil em Rivera, no Hall da Intendencia Municipal, realizou a exposição: "Brasil - Uruguai, a história que nos une", que deve uma duração de 21 dias, contando com a visita de 3600 visitantes entre estudantes e publico em geral.
-							A mesma exposição se repetiu no Departamento de Tacuarembó e em Minas Corrales em 2009.</p> -->
-						<p>Também realizou, conjuntamente com o Consulado do Brasil em Rivera, exposições históricas em um evento cultural denominado: "Pátria Gaúcha", no Departamento de Tacuarembó, nos anos de 2009 e 2010. Como complemento da atividade cultural, o Museo Sin Fronteiras, realizou as seguintes exposições:
+						<p>Também realizou, conjuntamente com o Consulado do Brasil em Rivera, exposições históricas em um evento cultural denominado: "Pátria Gaúcha", no Departamento de Tacuarembó, nos anos de 2009 e 2010. Como complemento da atividade cultural, o Museo Sin Fronteras, realizou as seguintes exposições: 
 
 							<ul class="list--history">
 								<li> "Rivera-Livramento I", declarado interesse departamental</li>
-								<li> "1904 -  Campos Massoller", declarado interesse departamental</li>
+								<li> "1904 -  Campos Masoller", declarado interesse departamental</li>
 								<li> "La Guerra del Paraguay", declarado interesse departamental</li>
-								<li> "Riveira-Livramento II", declarado interesse departamental</li>
+								<li> "Rivera-Livramento II", declarado interesse departamental</li>
 								<li> "Conceptos Básicos Prehistoria", declarado interesse departamental</li>
 							</ul>
 						</p>
-						<p>Atualmente, o Museo Sin Fronteira e o Instituto Federal de Ciencia e Tecnologia Sul Rio Grandense - Campus Santana estão trabalhando para o surgimento do primerio museu da integração cultural entre dois paises do Mercosul, Museu Sem Fronteiras Binacional, como um exemplo de paz, irmandade e amistosidade entre os dois países.
-							unidos por um parque internacional que respresenta a união de dois povos irmãos.</p>
+						<p>Atualmente, o Museo Sin Fronteira e o Instituto Federal de Ciência e Tecnologia Sul Rio Grandense - Campus Santana estão trabalhando para o surgimento do primeiro museu da integração cultural entre dois países do Mercosul, Museu Sem Fronteiras Binacional, como um exemplo de paz, irmandade e amistosidade entre os dois países unidos por um parque internacional que representa a união de dois povos irmãos.</p>
 
+					</div>
+
+					
 
 
 
@@ -253,10 +247,8 @@
 						<h2>Museu Nas Escolas</h2>
 					</div>
 
-					<div class="">
-						<p>Como forma de levar o museu para mais perto das crianças e adolescentes, o projeto conta com exposições itinerantes que levam os artefatos para dentro das escolas. Com isso, desperta-se o interesse em jovens que nunca tiveram a opotunidade de entrar em um museu, conheceram
-							mais do nosso trabalho de captação e cadastramento das peças.
-						</p>
+					<div class="text-p">
+						<p>Como forma de levar o museu para mais perto das crianças e adolescentes, o projeto conta com exposições itinerantes que levam os artefatos para dentro das escolas. Com isso, despertasse o interesse em jovens que nunca tiveram a oportunidade de entrar em um museu, conheceram mais do nosso trabalho de captação e cadastramento das peças.</p>
 					</div>
 
 				</div>
@@ -351,15 +343,13 @@
 			<div class="container">
 				<div class="row">
 				
-					<div class="sec-title text-center">
-						<h2>Expoxições</h2>
+				<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+						<h2>Exposições</h2>
 					</div>
 					
-					<div class="">
-						<p>Desde o inicio do projeto, ja foram elaboradas 3 exposições. A primeira foi referente a Semana da Farroupilha, aconteceu no IFSul campus Santana do Livramento e contou com a participação da comunidade academica que puderam ver de perto algumas peças do acervo do Museu Sem Fronteiras, referentes a esse periodo.
-							A segunda exposição foi a II Exposição Lembranças da Fronteira da Paz, que contou com o apoio da Intentencia de Rivera onde a expoisção ficou durante três dias antes de se mudar para o IFSul campus Santana do Livramento.
-							A terceira exposição foi referente a Semana da Consciencia Negra e contou com uma instalação com peças do acervo do Museu que foram utilizadas na época da escravatura. A ideia dessa instalação era fazer uma visita ao passado e trazer a discussão sobre como eram tratadas as pessoas que escreveram a história do pais.
-						 </p>
+					<div class="text-p" style="padding: 15px">
+						<p>As exposições são a alma do projeto Museu Sem Fronteiras Binacional Itinerante, apoiado pelo Instituto Federal Sul-Rio-Grandense Campus Santana do Livramento. Com elas podemos proporcional para a nossa comunidade acadêmica e civil, uma imersão a história da região.</p>
+						<p>Todos os eventos em que há a possibilidade de fazer uma exposição temática, elaboramos algo novo para captar a atenção de todos de maneira a manter viva a história da fronteira e trazer à luz as peças do acervo do Museu Sem Fronteiras, captadas, organizadas e catalogadas pelo antropólogo Antônio Boero. </p>
 					</div>
 				</div>
 				
@@ -448,12 +438,12 @@
 			<div class="container">
 				<div class="row">
 				
-					<div class="sec-title text-center">
+				<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
 						<h2>Acervo</h2>
 					</div>
 					
-					<div class="">
-						<p>As peças apresentadas nessa sessão são de propriedade do Museu Sem Fronteiras, gentilmente disponibilidadas pelo Antonio Boero, proprietário e curador do Museu.</p>
+					<div class="text-p">
+						<p>As peças apresentadas nesta seção são de propriedade do Museu Sem Fronteiras, gentilmente disponibilizadas por Antônio Boero, proprietário e curador do Museu.</p>
 					</div>
 					 
 					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms"  style="padding:50px 0">
@@ -508,8 +498,8 @@
 						<figure class="mix work-item web">
 							<img src="assets/img/collection/image_6.jpg" alt="" style="width:292px; height:262px">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Sem Descrição" href="assets/img/collection/image_6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Sem Descrição</h4>
+								<a class="fancybox" rel="works" title="Imagem Sacra" href="assets/img/collection/image_6.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Imagem Sacra</h4>
 
 							</figcaption>
 						</figure>
@@ -609,7 +599,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<p class="copyright text-center">
-							Copyright © 2015 <a href="http://themefisher.com/">Themefisher</a>. All rights reserved. Designed & developed by <a href="http://themefisher.com/">Themefisher</a>
+							Copyright © 2019. All rights reserved. Designed & developed by <a href="https://github.com/LuceliaVieira">Lucélia Vieira</a>
 						</p>
 					</div>
 				</div>

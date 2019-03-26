@@ -898,5 +898,14 @@ wrapper{
 }
 
 
+.list--history{
+  padding: 15px;
+  line-height: 2.5;
+}
+
+.text-p {
+  text-align: justify;
+}
+
 
 

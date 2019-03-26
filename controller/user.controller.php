@@ -22,7 +22,7 @@ class userController{
     
     public function Index(){
 
-        require_once 'view/user/index.php';
+        require_once 'view/user/en/index.php';
     }
 
 
