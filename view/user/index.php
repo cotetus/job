@@ -95,16 +95,7 @@
 				<div class="carousel-inner" role="listbox">
 					
 					<!-- single slide -->
-					<div class="item active" style="background-image: url(assets/img/logo.jpg); background-size: contain; background-repeat: no-repeat; background-position-x: center; background-position-y: -1.4px;">
-						<div class="carousel-caption">
-
-
-
-								<li><a href="https://www.facebook.com/MuseoSinFronteras/"><i class="fa fa-facebook fa-lg"></i></a></li>
-
-								<li><a href="http://www.museosinfronteras.com/"><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
+					<div class="item active" style="background-image: url(assets/img/logo.jpeg); background-size: contain; background-repeat: no-repeat; background-position-x: center; background-position-y: -1.4px;">
 					</div>
 
 					
@@ -130,18 +121,30 @@
 						<h2>História do Museu</h2>
 					</div>
 
-					<div class="">
-						<p>No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.
-							Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar, então é... é... Já vivi muito sem dinheiro, já vivi muito com dinheiro. -Jornalista: Coloca esse dinheiro na poupança que a senhora ganha R$10 mil por mês. -Dilma: O que que é R$10 mil?</p>
-					</div>
-					
-					<div class="text-center mb50 mb51">
-						<h3>Rivera - S'antana do Livramento na História</h3>
-					</div>
-					<div class="">
-						<p>No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.
-							Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar, então é... é... Já vivi muito sem dinheiro, já vivi muito com dinheiro. -Jornalista: Coloca esse dinheiro na poupança que a senhora ganha R$10 mil por mês. -Dilma: O que que é R$10 mil?</p>
-					</div>
+					<p>O Museo Sin Fronteiras iniciou suas atividades na Semana Santa do ano de 1979, quando em conjunto com a Intendendia Municipal de Rivera, realizou sua primeira exposição em um dos salões do antigo Banco Mercantil de Rivera. Essa exposição tinha enfoque em peças indigenas e gauchas,
+							posteriormente levada para outras cidades e intendencias do Uruguai, teve uma duração de 20 dia, recebeu cerca de 9500 visitantes, entre comunidade academica e local. A pedido das escolas, a exposição se repetiu no Setembro do mesmo ano, tendo uma quantidade similiar de visitantes.</p>
+						<p> Sem local fixo e com um acervo histórico cultural que esperava para ser exposto, o Museo Sin Fronteras, durante muitos anos. visitou diversas escolas de forma totalmente gratuita, levando o acervo para apreciação dos estudantes de forma a incrementar o estudo de sala de aula.</p>
+						<p>Em Março de 2003 o museu adquiriu um espaço na Rua Sarandi, nº 743, onde expôs para o grande público de forma gratuita, 600 peças do seu acervo particular.</p>
+						<p>Em 2 de Maio do mesmo ano, por resolução nº2617 do conjunto executivo departamental, foi declarada as atividades do museu, de interesse do Departamento. Em Maio de 2007, o museu abriu suas portas na Avenida Itália, nº 2394, onde realizam-se periodicamente diversas exposições e atividade culturais.</p>
+						<!-- <p>Em Abril de 2009, o projeto "O Museu vai as escolas", foi declardo de interesse do Ministerio da Educação e Cultura do Uruguai, e em Março de 2010, o mesmo voltou a ser declarado do interesse, conjuntamente, com o projeto apresentado pelo MSF, denominado: "Aos 175 anos da Revolução Farroupilha",
+							criado em homenagem aos brasileiros, especialmente aos Riograndenses. </p>
+						<p>O Museo Sin Fronteiras, em Junho de 2005, recebeu a honraria: "Amigo do 4º Regimento de Carros de Combate", com sede na cidade de Rosário do Sul (Rio Grande do Sul, Brasil), por ter apoiad a criação do Museu "Paso de Rosário" e o "Ituzaingó".</p>
+						<p>Em 2007, recebeu a honraria de "Amigo do 7º RCMec" da cidade de Sant'Ana do Livramento, por ter apoiado diversas atividades culturais realizadas juntamente com o Exército Brasileiro.</p> 
+						<p>O museu ja realizou mais de 520 exposições em escolas, centros educativos, unidades militares de Brasil e Uruguai. centros de capacitados, INAU, e é visitado por escolas de Livramento, Rivera, e região. Participou de diversas atividades em: Paysandú, Tacuarembó, Cerro Largo.</p>
+						<p>Em 2008, conjuntamente com o Consulado do Brasil em Rivera, no Hall da Intendencia Municipal, realizou a exposição: "Brasil - Uruguai, a história que nos une", que deve uma duração de 21 dias, contando com a visita de 3600 visitantes entre estudantes e publico em geral.
+							A mesma exposição se repetiu no Departamento de Tacuarembó e em Minas Corrales em 2009.</p> -->
+						<p>Também realizou, conjuntamente com o Consulado do Brasil em Rivera, exposições históricas em um evento cultural denominado: "Pátria Gaúcha", no Departamento de Tacuarembó, nos anos de 2009 e 2010. Como complemento da atividade cultural, o Museo Sin Fronteiras, realizou as seguintes exposições:
+
+							<ul class="list--history">
+								<li> "Rivera-Livramento I", declarado interesse departamental</li>
+								<li> "1904 -  Campos Massoller", declarado interesse departamental</li>
+								<li> "La Guerra del Paraguay", declarado interesse departamental</li>
+								<li> "Riveira-Livramento II", declarado interesse departamental</li>
+								<li> "Conceptos Básicos Prehistoria", declarado interesse departamental</li>
+							</ul>
+						</p>
+						<p>Atualmente, o Museo Sin Fronteira e o Instituto Federal de Ciencia e Tecnologia Sul Rio Grandense - Campus Santana estão trabalhando para o surgimento do primerio museu da integração cultural entre dois paises do Mercosul, Museu Sem Fronteiras Binacional, como um exemplo de paz, irmandade e amistosidade entre os dois países.
+							unidos por um parque internacional que respresenta a união de dois povos irmãos.</p>
 
 
 
@@ -151,7 +154,7 @@
 					<figure class="work-item">
 						<img src="assets/img/history/thumb/foto-thumb-1.jpg" alt="">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 19.." href="assets/img/history/thumb/foto-thumb-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<a class="fancybox" rel="works" title="Ano 19.." href="assets/img/history/thumb/foto-thumb-1.jpg"> <i class="fa fa-eye fa-lg"></i></a>
 							<a class="fancybox" rel="works" title="Ano 2006" href="assets/img/history/slider/foto-slider-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
 							<h4>Avenida Sarandi esquina com Avenida Brasil</h4>
 							<p>Fotografia</p>
@@ -259,81 +262,73 @@
 				</div>
 				<div class="project-wrapper" style="padding:50px 0">
 					<figure class="mix work-item">
-						<img src="assets/img/history/thumb/foto-thumb-1.jpg" alt="">
+						<img src="assets/img/school/image_1.jpg" alt="" style="width:285px; height:262px">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 19.." href="assets/img/history/thumb/foto-thumb-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<a class="fancybox" rel="works" title="Ano 2006" href="assets/img/history/slider/foto-slider-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Avenida Sarandi esquina com Avenida Brasil</h4>
+							<a class="fancybox" rel="works" title="Ano 19.." href="assets/img/school/image_1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<h4>Exposição no Quartel</h4>
 							<p>Fotografia</p>
 						</figcaption>
 					</figure>
 					
 					<figure class="mix work-item">
-						<img src="assets/img/history/thumb/foto-thumb-2.jpg" alt="">
+						<img src="assets/img/school/image_2.jpg" alt="" style="width:285px; height:262px">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 1943" href="assets/img/history/thumb/foto-thumb-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<a class="fancybox" rel="works" title="Ano 2006" href="assets/img/history/slider/foto-slider-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Avenida Sarandi, vista da Rua Caranbula até Rua Monsenhor Vera</h4>
+							<a class="fancybox" rel="works" title="Ano 1943" href="assets/img/school/image_2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<h4>Exposição no Quartel</h4>
 							<p>Fotografia</p>
 						</figcaption>
 					</figure>
 					
 					<figure class="mix work-item">
-						<img src="assets/img/history/thumb/foto-thumb-3.jpg" alt="">
+						<img src="assets/img/school/image_3.jpg" alt="" style="width:285px; height:262px">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 1900" href="assets/img/history/thumb/foto-thumb-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<a class="fancybox" rel="works" title="Ano 2006" href="assets/img/history/slider/foto-slider-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Entrada a Rivera, vindo de S'antana do Livramento</h4>
+							<a class="fancybox" rel="works" title="Ano 1900" href="assets/img/school/image_3.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<h4>Exposição no Quartel</h4>
 							<p>Fotografia</p>
 						</figcaption>
 					</figure>
 					
 					<figure class="mix work-item">
-						<img src="assets/img/history/thumb/foto-thumb-4.jpg" alt="">
+						<img src="assets/img/school/image_4.jpg" alt="" style="width:285px; height:262px">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 19.." href="assets/img/history/thumb/foto-thumb-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<a class="fancybox" rel="works" title="Ano 2006" href="assets/img/history/slider/foto-slider-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Largo Internacional</h4>
+							<a class="fancybox" rel="works" title="Ano 19.." href="assets/img/school/image_4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<h4>Exposição no Quartel</h4>
 							<p>Photography</p>
 						</figcaption>
 					</figure>
 				
 					<figure class="mix work-item">
-						<img src="assets/img/history/thumb/foto-thumb-5.jpg" alt="">
+						<img src="assets/img/school/image_5.jpg" alt="" style="width:285px; height:262px">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 1897" href="assets/img/history/thumb/foto-thumb-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<a class="fancybox" rel="works" title="Ano 1900" href="assets/img/history/slider/foto-slider-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>S'antana do Livramento</h4>
+							<a class="fancybox" rel="works" title="Ano 1897" href="assets/img/school/image_5.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<h4>Exposição no Quartel</h4>
 							<p>Fotografia</p>
 						</figcaption>
 					</figure>
 					
 					<figure class="mix work-item">
-						<img src="assets/img/history/thumb/foto-thumb-6.jpg" alt="">
+						<img src="assets/img/school/image_6.jpg" alt="" style="width:285px; height:262px">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 1930" href="assets/img/history/thumb/foto-thumb-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<a class="fancybox" rel="works" title="Ano 2006" href="assets/img/history/slider/foto-slider-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Praça Flores, Rivera</h4>
+							<a class="fancybox" rel="works" title="Ano 1930" href="assets/img/school/image_6.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<h4>Exposição no Quartel</h4>
 							<p>Fotografia</p>
 						</figcaption>
 					</figure>
 					
 					<figure class="mix work-item">
-						<img src="assets/img/history/thumb/foto-thumb-7.jpg" alt="">
+						<img src="assets/img/school/image_7.jpg" alt="" style="width:285px; height:262px">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 1935" href="assets/img/history/thumb/foto-thumb-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<a class="fancybox" rel="works" title="Ano 2006" href="assets/img/history/slider/foto-slider-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Avenida Sarandi esquina com Rua Monsenhor Vera</h4>
+							<a class="fancybox" rel="works" title="Ano 1935" href="assets/img/school/image_7.jpg"><i class="fa fa-eye fa-lg"></i></a>							
+							<h4>Exposição no Quartel</h4>
 							<p>Fotografia</p>
 						</figcaption>
 					</figure>
 					
 					<figure class="mix work-item">
-						<img src="assets/img/history/thumb/foto-thumb-8.jpg" alt="">
+						<img src="assets/img/school/image_8.jpg" alt="" style="width:285px; height:262px">
 						<figcaption class="overlay">
-							<a class="fancybox" rel="works" title="Ano 1904" href="assets/img/history/thumb/foto-thumb-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<a class="fancybox" rel="works" title="Ano 2006" href="assets/img/history/slider/foto-slider-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
-							<h4>Avenida Sarandi esquina com Rua Monsenhor Vera até Avenida Artigas</h4>
+							<a class="fancybox" rel="works" title="Ano 1904" href="assets/img/school/image_8.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<h4>Exposição no Quartel</h4>
 							<p>Fotografia</p>
 						</figcaption>
 					</figure>
@@ -360,44 +355,83 @@
 						<h2>Expoxições</h2>
 					</div>
 					
-					<div class="sec-sub-title text-center">
+					<div class="">
 						<p>Desde o inicio do projeto, ja foram elaboradas 3 exposições. A primeira foi referente a Semana da Farroupilha, aconteceu no IFSul campus Santana do Livramento e contou com a participação da comunidade academica que puderam ver de perto algumas peças do acervo do Museu Sem Fronteiras, referentes a esse periodo.
 							A segunda exposição foi a II Exposição Lembranças da Fronteira da Paz, que contou com o apoio da Intentencia de Rivera onde a expoisção ficou durante três dias antes de se mudar para o IFSul campus Santana do Livramento.
 							A terceira exposição foi referente a Semana da Consciencia Negra e contou com uma instalação com peças do acervo do Museu que foram utilizadas na época da escravatura. A ideia dessa instalação era fazer uma visita ao passado e trazer a discussão sobre como eram tratadas as pessoas que escreveram a história do pais.
 						 </p>
 					</div>
-					
-				</div>
-
-				<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-						<ul class="text-center">
-							<li><a href="javascript:;" data-filter="all" class="active filter">Todas</a></li>
-							<?php foreach($this->exposicao->listAll() as $categ): ?>
-							<li><a ><?php echo $categ['nome'] ?></a></li>
-							<?php endforeach; ?>
-
-						</ul>
-					</div>
-					
 				</div>
 				
-				<div class="project-wrapper">
+				<div class="project-wrapper"  style="padding:50px 0">
 			
-						<figure class="work-item">
-							<img src="assets/img/works/item-1.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="assets/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
+					<figure class="work-item farroupilha">
+						<img src="assets/img/exhibitions/1/image_1.jpg" alt="" style="width:285px; height:262px">
+						<figcaption class="overlay">
+							<a class="fancybox" rel="works" title="Mulheres na História" href="assets/img/exhibitions/1/image_1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<a class="fancybox" rel="works" title="Mulheres na História" href="assets/img/exhibitions/1/image_2.jpg" style="border: none"></a>
+							<a class="fancybox" rel="works" title="Mulheres na História" href="assets/img/exhibitions/1/image_3.jpg" style="border: none"></a>
+							<a class="fancybox" rel="works" title="Mulheres na História" href="assets/img/exhibitions/1/image_4.jpg" style="border: none"></a>
+							<a class="fancybox" rel="works" title="Mulheres na História" href="assets/img/exhibitions/1/image_5.jpg" style="border: none"></a>
+							<a class="fancybox" rel="works" title="Mulheres na História" href="assets/img/exhibitions/1/image_6.jpg" style="border: none"></a>
+							<a class="fancybox" rel="works" title="Mulheres na História" href="assets/img/exhibitions/1/image_7.jpg" style="border: none"></a>
+							
+							<h4>Exposição Mulheres na História</h4>
+
+						</figcaption>
+					</figure>
+					<figure class="work-item farroupilha">
+						<img src="assets/img/exhibitions/2/image_1.jpg" alt="" style="width:285px; height:262px">
+						<figcaption class="overlay">
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_2.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_3.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_4.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_5.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_6.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_7.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_8.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="II Exposição Lembranças da Fronteira da Paz" href="assets/img/exhibitions/2/image_9.jpg" style="border: none"></i></a>
+
+							<h4>II Exposição Lembranças da Fronteira da Paz</h4>
+						</figcaption>
+					</figure>
+					<figure class="work-item farroupilha">
+						<img src="assets/img/exhibitions/3/image_1.jpg" alt="" style="width:285px; height:262px">
+						<figcaption class="overlay">
+							<a class="fancybox" rel="works" title="I Exposição Semana da Consciencia Negra" href="assets/img/exhibitions/3/image_1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana da Consciencia Negra" href="assets/img/exhibitions/3/image_2.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana da Consciencia Negra" href="assets/img/exhibitions/3/image_3.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana da Consciencia Negra" href="assets/img/exhibitions/3/image_4.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana da Consciencia Negra" href="assets/img/exhibitions/3/image_5.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana da Consciencia Negra" href="assets/img/exhibitions/3/image_6.jpg" style="border: none"></i></a>
+
+							<h4>I Exposição Semana da Consciencia Negra</h4>
+						</figcaption>
+					</figure>
+					<figure class="work-item farroupilha">
+						<img src="assets/img/exhibitions/4/image_1.jpg" alt="" style="width:285px; height:262px">
+						<figcaption class="overlay">
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_2.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_3.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_5.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_6.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_7.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_8.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_9.jpg" style="border: none"></i></a>
+							<a class="fancybox" rel="works" title="I Exposição Semana Farroupilha" href="assets/img/exhibitions/4/image_10.jpg" style="border: none"></i></a>
+							
+							<h4>I Exposição Semana Farroupilha</h4>
+						</figcaption>
+					</figure>
+					
 						
-						
-					</div>
+				</div>
+					
 			</div>
-			
-			
-			
+
+				
 	
 		</section>
 		
@@ -418,41 +452,89 @@
 						<h2>Acervo</h2>
 					</div>
 					
-					<div class="sec-sub-title text-center">
+					<div class="">
 						<p>As peças apresentadas nessa sessão são de propriedade do Museu Sem Fronteiras, gentilmente disponibilidadas pelo Antonio Boero, proprietário e curador do Museu.</p>
 					</div>
-					
-					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+					 
+					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms"  style="padding:50px 0">
 						<ul class="text-center">
 							<li><a href="javascript:;" data-filter="all" class="active filter">Todas</a></li>
-							<?php foreach($this->categoria->listAll() as $categ): ?>
-							<li><a href="javascript:;" <?php echo"data-filter='.".$categ['id']."'";?> class="filter"><?php echo $categ['nome'] ?></a></li>
-							<?php endforeach; ?>
+							<li><a href="javascript:;" data-filter=".branding" class="filter">Artefatos Indígenas</a></li>
+							<li><a href="javascript:;" data-filter=".web" class="filter">Farroupilha</a></li>
+							<li><a href="javascript:;" data-filter=".logo-design" class="filter">Revolução Do Uruguai</a></li>
+							<li><a href="javascript:;" data-filter=".photography" class="filter">Independencia do Brasil</a></li>
+
 
 						</ul>
 					</div>
+
+					<div class="project-wrapper">
+						<figure class="mix work-item branding">
+							<img src="assets/img/collection/image_1.jpg" alt="" style="width:292px; height:262px">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Quebra cabeça de duas pontas" href="assets/img/collection/image_1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Quebra cabeça de duas pontas</h4>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item branding">
+							<img src="assets/img/collection/image_2.jpg" alt="" style="width:292px; height:262px">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Tubo manufaturado indígena. Recuperado em território uruguaio." href="assets/img/collection/image_2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Tubo manufaturado indígena. Recuperado em território uruguaio.</h4>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item web">
+							<img src="assets/img/collection/image_3.jpg" alt="" style="width:292px; height:262px">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Detalhe de um esporão chorando. Também recuperado na área do acampamento Artiguista." href="assets/img/collection/image_3.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Detalhe de um esporão chorando. Também recuperado na área do acampamento Artiguista.</h4>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item web">
+							<img src="assets/img/collection/image_4.jpg" alt="" style="width:292px; height:262px">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Pá inglesa para cavar trincheiras. Recuperado na área do campo de purificação" href="assets/img/collection/image_4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Pá inglesa para cavar trincheiras. Recuperado na área do campo de purificação</h4>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item web">
+							<img src="assets/img/collection/image_5.jpg" alt="" style="width:292px; height:262px">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Pontas de lança recuperados no campo Artiguista da Purificação." href="assets/img/collection/image_5.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Pontas de lança recuperados no campo Artiguista da Purificação.</h4>
+
+							</figcaption>
+						</figure>
+						<figure class="mix work-item web">
+							<img src="assets/img/collection/image_6.jpg" alt="" style="width:292px; height:262px">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Sem Descrição" href="assets/img/collection/image_6.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Sem Descrição</h4>
+
+							</figcaption>
+						</figure>
+						<figure class="mix work-item web">
+							<img src="assets/img/collection/image_7.jpg" alt="" style="width:292px; height:262px">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Adaga de Adão La Torre mais conhecido como Adão "Pardo"" href="assets/img/collection/image_7.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Adaga de Adão La Torre mais conhecido como Adão "Pardo"</h4>
+
+							</figcaption>
+						</figure>
+						<figure class="mix work-item logo-design">
+							<img src="assets/img/collection/image_8.jpg" alt="" style="width:292px; height:262px">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Pistola belga. Usado pelos defensores dw Paysandú. 1 de dezembro de 1864 - 2 de janeiro de 1865." href="assets/img/collection/image_8.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Pistola belga. Usado pelos defensores dw Paysandú. 1 de dezembro de 1864 - 2 de janeiro de 1865.</h4>
+							</figcaption>
+						</figure>
+
+					</div>
 					
 				</div>
 
 
-				<div class="project-wrapper">
-			<?php foreach($this->imagems_acervo->listAll() as $acer): ?>
-					<figure 
-					<?php 
-						$cate = $this->acervo->listOne($acer['id_aservo']);
-						echo"class='mix work-item ".$cate['id_categoria']."'";?>>
-						<img <?php echo "src = 'assets/img/works/".$acer['imagem']."'";?> alt="">
-						<figcaption class="overlay">
-							<a class="fancybox" rel="works" <?php echo"title='".$acer['nome']."' href='assets/img/works/".$acer['imagem']."'";?>><i class="fa fa-eye fa-lg"></i></a>
-							<h4><?php echo $acer['nome']?></h4>
-						</figcaption>
-					</figure>
-					<?php endforeach; ?>
-					
-				
-					
-				</div>
-			</div>
+
 			
 			
 		

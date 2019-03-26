@@ -1,0 +1,19 @@
+Indigenas
+    image_1 = Rompecabezas de dos puntas     
+    image_2 = Pipa de manufactura indígena. Recuperada en territorio Uruguayo.
+
+Farroupilha (?)
+    image_3 = Detalle de una espuela llorona. También recuperada en la zona del campamento Artiguista.
+    image_4 = Pala inglesa de cavar trincheras. Recuperada en la zona del campamento dé Purificación.
+    image_5 = Puntas de lanzas recuperadas en el campamento artiguista de Purificación.
+    image_6 = Sin descripición
+    image_7 = Daga de Adán Latorre más conocido como el “pardo” Adán.
+
+Uruguai
+    image_8 = Pistola belga de avancarga. Utilizada por los defensores de Paysandú. 1 de diciembre de 1864 - 2 de enero de 1865.
+
+Jesuítas
+    image_9 = Piezas religiosas pertenecientes al período Jesuítico Misionero.
+
+Escravidão
+    image_10 = Período Esclavista
