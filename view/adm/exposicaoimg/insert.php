@@ -8,7 +8,10 @@
       </div>
           <div class="modal-body">
           <div class="form-group">
-        <input class="form-control " type="text" name="nome" placeholder="Nombre">
+        <input class="form-control " type="text" name="nome" placeholder="Nombre (PT)">
+        </div>
+        <div class="form-group">
+        <input class="form-control " type="text" name="nome_ES" placeholder="Nombre (ES)">
         </div>
         <div class="form-group">
         <select class="form-control " name="id_exposicao"/>

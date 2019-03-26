@@ -58,7 +58,13 @@
         <input class="form-control " type="text" value="<?php echo $datos['nome']; ?>">
         </div>
         <div class="form-group">
+        <input class="form-control " type="text" value="<?php echo $datos['nome_ES']; ?>">
+        </div>
+        <div class="form-group">
         <textarea rows="2" class="form-control" value="<?php echo $datos['descricao']; ?>"></textarea>
+        </div>
+        <div class="form-group">
+        <textarea rows="2" class="form-control" value="<?php echo $datos['descricao_ES']; ?>"></textarea>
         </div>
                 <div class="form-group">
         <input class="form-control " type="text" value="<?php echo $datos['local']; ?>">

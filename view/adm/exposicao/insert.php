@@ -8,13 +8,19 @@
       </div>
           <div class="modal-body">
           <div class="form-group">
-        <input class="form-control " type="text" name="nome" placeholder="Nombre">
+        <input class="form-control " type="text" name="nome" placeholder="Nombre (PT)">
+        </div>
+        <div class="form-group">
+        <input class="form-control " type="text" name="nome_ES" placeholder="Nombre (ES)">
         </div>
         <div class="form-group">
         <input class="form-control " type="text" name="local" placeholder="Local">
         </div>
         <div class="form-group">
-        <textarea rows="2" class="form-control" name="descricao" placeholder="Descripción"></textarea>
+        <textarea rows="2" class="form-control" name="descricao" placeholder="Descripción (PT)"></textarea>
+        </div>
+        <div class="form-group">
+        <textarea rows="2" class="form-control" name="descricao_ES" placeholder="Descripción (ES)"></textarea>
         </div>
         <div class="form-group">
         <input class="form-control " type="date" name="data_inicio" placeholder="Fecha de Inicio">

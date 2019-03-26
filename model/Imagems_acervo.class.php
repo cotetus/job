@@ -4,6 +4,7 @@
    
    private $id;
    private $nome;
+   private $nome_ES;
    private $imagem;
    private $id_aservo;
 
@@ -14,6 +15,9 @@
    }
    public function getNome() {
       return $this->nome;
+   }
+   public function getNome_ES() {
+      return $this->nome_ES;
    }
    public function getImagem() {
       return $this->imagem;
@@ -26,6 +30,9 @@
    public function setNome($nome) {
       $this->nome = $nome;
    }
+   public function setNome_ES($nome_ES) {
+      $this->nome_ES = $nome_ES;
+   }
    public function setImagem($imagem) {
       $this->imagem = $imagem;
    }
@@ -34,20 +41,22 @@
    }
    
    
-   public function save($nome, $id_aservo, $imagem,  $id){
+   public function save($nome, $nome_ES, $imagem, $id_aservo, $id){
       $conexion = new Conexion();
       if($id) { //Modifica toda una linea, mediante el id.
 
-         $sql = $conexion->prepare('UPDATE ' . self::TABLA .' SET nome = :nome,  imagem = :imagem, id_aservo = :id_aservo WHERE id = :id');
+         $sql = $conexion->prepare('UPDATE ' . self::TABLA .' SET nome = :nome, nome_ES = :nome_ES,  imagem = :imagem, id_aservo = :id_aservo WHERE id = :id');
          $sql->bindParam(':nome', $nome, PDO::PARAM_STR);
-         $sql->bindParam(':imagem', $imagem, PDO::PARAM_STR);
+         $sql->bindParam(':nome_ES', $nome_ES, PDO::PARAM_STR);
+         $sql->bindParam(':imagem', $imagem);
          $sql->bindParam(':id_aservo', $id_aservo);
          $sql->bindParam(':id', $id);
          $sql->execute();
       }else {  //Inserta un nuevo espectaculo.
-         $sql = $conexion->prepare('INSERT INTO ' . self::TABLA .' (nome, imagem,  id_aservo) VALUES(:nome, :imagem, :id_aservo)');
+         $sql = $conexion->prepare('INSERT INTO ' . self::TABLA .' (nome, nome_ES, imagem,  id_aservo) VALUES(:nome, :imagem, :id_aservo)');
          $sql->bindParam(':nome', $nome, PDO::PARAM_STR);
-         $sql->bindParam(':imagem', $imagem, PDO::PARAM_STR);
+         $sql->bindParam(':nome_ES', $nome_ES, PDO::PARAM_STR);
+         $sql->bindParam(':imagem', $imagem);
          $sql->bindParam(':id_aservo', $id_aservo);
          $id = $conexion->lastInsertId();
          $sql->execute();
@@ -57,7 +66,7 @@
    public static function listOne($id){//Retorna nombre, descri.. por el id.
     
        $conexion = new Conexion();
-       $sql = $conexion->prepare('SELECT nome, imagem, id_aservo FROM ' . self::TABLA . ' WHERE id = :id');
+       $sql = $conexion->prepare('SELECT nome, nome_ES, imagem, id_aservo FROM ' . self::TABLA . ' WHERE id = :id');
        $sql->bindParam(':id', $id);
        $sql->execute();
        $reg = $sql->fetch(); //Devuelve una única linea (array con cada campo) de la TABLA(id seleccionado).
@@ -66,7 +75,21 @@
     }
     public static function listAll(){
        $conexion = new Conexion();
+       $sql = $conexion->prepare ('SELECT id, nome, nome_ES, imagem, id_aservo FROM ' . self::TABLA);
+       $sql->execute();
+       $reg = $sql->fetchAll();
+       return $reg;
+    }
+    public static function listAll_PT(){
+       $conexion = new Conexion();
        $sql = $conexion->prepare ('SELECT id, nome, imagem, id_aservo FROM ' . self::TABLA . ' ORDER BY nome');
+       $sql->execute();
+       $reg = $sql->fetchAll();
+       return $reg;
+    }
+    public static function listAll_ES(){
+       $conexion = new Conexion();
+       $sql = $conexion->prepare ('SELECT id, nome_ES, imagem, id_aservo FROM ' . self::TABLA . ' ORDER BY nome_ES');
        $sql->execute();
        $reg = $sql->fetchAll();
        return $reg;

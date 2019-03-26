@@ -8,16 +8,25 @@
       </div>
           <div class="modal-body">
           <div class="form-group">
-        <input class="form-control " type="text" name="nome_peca" placeholder="Nombre de la pieza">
+        <input class="form-control " type="text" name="nome_peca" placeholder="Nombre de la pieza (PT)">
+        </div>
+        <div class="form-group">
+        <input class="form-control " type="text" name="nome_peca_ES" placeholder="Nombre de la pieza (ES)">
         </div>
         <div class="form-group">
         <input class="form-control " type="date" name="data_catalogada" placeholder="Fecha de registro">
         </div>
         <div class="form-group">
-        <textarea rows="2" class="form-control" name="descricao" placeholder="Descripción"></textarea>
+        <textarea rows="2" class="form-control" name="descricao" placeholder="Descripción (PT)"></textarea>
         </div>
         <div class="form-group">
-        <input class="form-control " type="text" name="periodo" placeholder="Período">
+        <textarea rows="2" class="form-control" name="descricao_ES" placeholder="Descripción (ES)"></textarea>
+        </div>
+        <div class="form-group">
+        <input class="form-control " type="text" name="periodo" placeholder="Período (PT)">
+        </div>
+        <div class="form-group">
+        <input class="form-control " type="text" name="periodo_ES" placeholder="Período (ES)">
         </div>
         <div class="form-group">
         <select class="form-control " name="id_categoria"/>

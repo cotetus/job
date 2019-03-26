@@ -20,11 +20,11 @@
              <th>Eliminar</th>
                    </thead>
     <tbody>
-       <?php $i = 0; ?>
+       <?php $id = [];$i = 0; ?>
        <?php foreach($this->model->listAll() as $datos): ?>    
             <tr>
-            <td><?php echo  $datos['nome_peca'];?></td>                    
-            <td><?php echo $datos['descricao']; ?></td>        
+            <td><?php $id[$i] = $datos['id']; echo  $datos['nome_peca'];?></td>                    
+            <td><?php $i++; echo $datos['descricao']; ?></td>        
             <td><?php $newDate = date('d/m/Y', strtotime($datos['data_catalogada'])); echo $newDate; ?></td>
             <td><?php echo $datos['periodo']; ?></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Editar"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit"></button></p></td>
@@ -52,8 +52,12 @@
         <h4 class="modal-title custom_align" id="Heading">Editar Pieza</h4>
       </div>
           <div class="modal-body">
+        <input type="hidden" name="id" value="<?php echo $datos['id']; ?>"/>
           <div class="form-group">
-        <input class="form-control " type="text" value="<?php echo $datos['nome _peca']; ?>">
+        <input class="form-control " type="text" value="<?php echo $datos['nome_peca']; ?>">
+        </div>
+          <div class="form-group">
+        <input class="form-control " type="text" value="<?php echo $datos['nome_peca_ES']; ?>">
         </div>
         <div class="form-group">
         <input class="form-control " type="date" value="<?php echo $datos['data_catalogada']; ?>">
@@ -62,7 +66,13 @@
         <textarea rows="2" class="form-control" value="<?php echo $datos['descricao']; ?>"></textarea>
         </div>
         <div class="form-group">
+        <textarea rows="2" class="form-control" value="<?php echo $datos['descricao_ES']; ?>"></textarea>
+        </div>
+        <div class="form-group">
         <input class="form-control " type="text" value="<?php echo $datos['periodo']; ?>">
+        </div>
+        <div class="form-group">
+        <input class="form-control " type="text" value="<?php echo $datos['periodo_ES']; ?>">
         </div>
         <div class="form-group">
         <select class="form-control " name="id_categoria"/>

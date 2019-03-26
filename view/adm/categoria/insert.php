@@ -8,7 +8,10 @@
       </div>
           <div class="modal-body">
           <div class="form-group">
-        <input class="form-control " type="text" name="nome" placeholder="Nombre de la Categoria">
+        <input class="form-control " type="text" name="nome" placeholder="Nombre de la Categoria (PT)">
+        </div>
+        <div class="form-group">
+        <input class="form-control " type="text" name="nome_ES" placeholder="Nombre de la Categoria (ES)">
         </div>
       </div>
           <div class="modal-footer ">

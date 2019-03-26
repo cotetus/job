@@ -43,7 +43,9 @@ class exposicaoController{
         
         $id = $_REQUEST['id'];
         $nome = $_REQUEST['nome'];
+        $nome_ES = $_REQUEST['nome_ES'];
         $descricao = $_REQUEST['descricao'];
+        $descricao_ES = $_REQUEST['descricao_ES'];
         $local = $_REQUEST['local'];
         $data_inicio = $_REQUEST['data_inicio'];
         $data_final = $_REQUEST['data_final'];
@@ -57,7 +59,7 @@ class exposicaoController{
        $banner = $namebanner;
 
   
-        $insert = Exposicao::save($nome, $banner, $data_final, $data_inicio, $descricao, $local, $id);
+        $insert = Exposicao::save($nome, $nome_ES, $banner, $data_final, $data_inicio, $descricao, $descricao_ES, $local, $id);
 
         
         if (isset($insert)) {

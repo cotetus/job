@@ -52,6 +52,9 @@
         <input class="form-control " type="text" value="<?php echo $datos['nome']; ?>">
         </div>
         <div class="form-group">
+        <input class="form-control " type="text" value="<?php echo $datos['nome_ES']; ?>">
+        </div>
+        <div class="form-group">
         <input class="form-control " type="file" value="<?php echo $datos['imagem']; ?>">
         </div>
       </div>

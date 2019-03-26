@@ -48,14 +48,17 @@ class acervoController{
         
         $id = $_REQUEST['id'];
         $nome_peca = $_REQUEST['nome_peca'];
+        $nome_peca_ES = $_REQUEST['nome_peca_ES'];
         $descricao = $_REQUEST['descricao'];
+        $descricao_ES = $_REQUEST['descricao_ES'];
         $data_catalogada = $_REQUEST['data_catalogada'];
         $periodo = $_REQUEST['periodo'];
+        $periodo_ES = $_REQUEST['periodo_ES'];
         $id_user = $_REQUEST['id_user'];
         $id_categoria = $_REQUEST['id_categoria'];
 
   
-        $insert = Acervo::save($nome_peca, $id_user, $id_categoria, $data_catalogada, $descricao, $periodo, $id);
+        $insert = Acervo::save($nome_peca, $nome_peca_ES, $id_user, $id_categoria, $data_catalogada, $descricao, $descricao_ES, $periodo, $periodo_ES, $id);
 
         
         if (isset($insert)) {

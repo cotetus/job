@@ -46,8 +46,10 @@ class acervoimgController{
         
         $id = $_REQUEST['id'];
         $nome = $_REQUEST['nome'];
+        $nome_ES = $_REQUEST['nome_ES'];
         $id_aservo = $_REQUEST['id_aservo'];
-               if(isset($_FILES["imagem"])){
+       
+       if(isset($_FILES["imagem"])){
        $direction ="../../assets/img/acervo/";
        $nameimg = $_FILES["imagem"]["name"];
        $nameTemp = $_FILES["imagem"]["tmp_name"];
@@ -56,7 +58,7 @@ class acervoimgController{
        $imagem = $nameimg;
 
 
-        $insert = Imagems_acervo::save($nome, $id_aservo, $imagem, $id);
+        $insert = Imagems_acervo::save($nome, $nome_ES, $imagem, $id_aservo, $id);
 
         
         if (isset($insert)) {
